@@ -13,10 +13,12 @@ public class DirectorySort {
     }
     
     
+
     
 
     public static int readFile() {
         int flag = 0;
+        // Read file
         Scanner sc = new Scanner(System.in);
         Map<String, String> map = new HashMap<>();
         ArrayList<String> names = new ArrayList<>();
